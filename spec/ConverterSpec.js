@@ -19,5 +19,11 @@ describe('Cooking Ingredients Converter', function() {
 
       expect(result).toEqual(45.36);
     });
+
+    it('Kilos to Pounds', function() {
+      let result = convertKilosToPounds(45.36);
+
+      expect(result).toEqual(100);
+    });
   });
 });
