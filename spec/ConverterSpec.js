@@ -26,4 +26,32 @@ describe('Cooking Ingredients Converter', function() {
       expect(result).toEqual(100);
     });
   });
+
+  describe('Volumes', function() {
+    it('Litres to Gallons', function() {
+      let result = convertLitresToGallons(100);
+
+      expect(result).toEqual(22);
+    });
+
+    it('Gallons to Litres', function() {
+      let result = convertGallonsToLitres(22);
+
+      expect(result).toEqual(100);
+    });
+  });
+
+  describe('Distances', function() {
+    it('Miles to Kilometres', function() {
+      let result = convertMilesToKms(100);
+
+      expect(result).toEqual(160.9);
+    });
+
+    it('Kilmetres to Miles', function() {
+      let result = convertKmsToMiles(160.9);
+
+      expect(result).toEqual(100);
+    });
+  });
 });
