@@ -12,4 +12,12 @@ describe('Cooking Ingredients Converter', function() {
       expect(result).toEqual('100');
     });
   });
+
+  describe('Weights', function() {
+    it('Pounds to Kilos', function() {
+      let result = convertPoundsToKilos(100);
+
+      expect(result).toEqual(45.36);
+    });
+  });
 });

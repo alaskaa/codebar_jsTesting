@@ -11,3 +11,14 @@ function convertCelsiusToFahrenheit(temperature) {
 // celsius = (fahrenheit - 32)/1.8
 
 // (celsius * 1.8) + 32 = fahrenheit
+//Pounds to kilos (Weight)
+
+function convertPoundsToKilos(pounds) {
+  return pounds * 0.4536;
+}
+
+//kilo = pound * 0.4536
+//Litre to Gallons (Volume)
+//gallons = litres * 0.22
+//Miles to Km (distance)
+//kms = miles * 1.609
